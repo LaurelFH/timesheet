@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>timesheet</title>
+
+
+<!--boostrap 3 link-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!--link to css-->
+<link rel = "stylesheet" type = "text/css" href="style.css">
+
+
+</head>
+<body>
+	
+<!--fluid container for responsiveness-->
+<div class="container-fluid">
+	<!--div for the jumbotron header full width-->
+	<div class="jumbotron">
+
+  		<div class="container">
+    	   	<h1>Timesheet</h1>
+			<p> A Comprehensive Directory of employee Billable Hours</p>
+  		</div>
+	</div><!--ends the jumbotron-->
+
+<!--panel-primary with the table of information-->
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Current Employees</h3>
+   	</div>
+
+  	<div class="panel-body">
+    Panel content Fill with table info 
+ 	 </div><!--ends panel body content-->
+	</div><!--ends the primary-panel-->
+
+
+<!--vertical form with input spaces and submit buttons-->
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add Employee</h3>
+  </div><!--ends the panel heading -->
+
+  </div><!--ends the primary panel-->
+
+  <!--contains the employee input info-->
+  <div class="panel-body">
+            <!-- add employee form (note the various input "types")-->
+            <form role="form">
+              <div class="form-group">
+                <label for="name-input">Employee Name</label>
+                <input class="form-control" id="name-input" type="text">
+              </div>
+              <div class="form-group">
+                <label for="role-input">Role</label>
+                <input class="form-control" id="role-input" type="text">
+              </div>
+              <div class="form-group">
+                <label for="date-input">Start Date</label>
+                <input class="form-control" id="date-input" type="number">
+              </div>
+              <div class="form-group">
+                <label for="monthly-input">Monthly Rate</label>
+                <input class="form-control" id="monthly-input"></div>
+              </div>
+              <button class="btn btn-primary" id="add-user" type="submit">Submit</button>
+            </form>
+
+  </div><!--ends the 2nd panel body-->
+
+
+</div><!--ends the fluid container-->
+
+<!--js link --> 
+<script rel=javascript.js></script>
+</body>
+</html>
