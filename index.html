@@ -38,8 +38,20 @@
    	</div>
 
   	<div class="panel-body">
-    Panel content Fill with table info 
- 	 </div><!--ends panel body content-->
+    <!--starts the mini-table inside which contains the info about the employees-->
+    
+	<table class="table table-responsive">
+  	<tr>
+	  	<th>Employee Name</th>
+		<th>Role</th>
+		<th>Start Date</th>
+		<th>Months Worked</th>
+		<th>Monthly Rate($)</th>
+		<th>Total Billed($)</th>
+  	</tr>
+  
+	</table>
+	</div><!--ends panel body content-->
 	</div><!--ends the primary-panel-->
 
 
@@ -69,7 +81,7 @@
               </div>
               <div class="form-group">
                 <label for="monthly-input">Monthly Rate</label>
-                <input class="form-control" id="monthly-input"></div>
+                <input class="form-control" id="monthly-input" type="number"></div>
               </div>
               <button class="btn btn-primary" id="add-user" type="submit">Submit</button>
             </form>
