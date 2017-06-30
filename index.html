@@ -24,7 +24,7 @@
 	<div class="jumbotron">
 
   		<div class="container">
-    	   	<h1>Timesheet</h1>
+    	   	<h1>Management Timesheet</h1>
 			<p> A Comprehensive Directory of Employee Billable Hours</p>
   		</div>
 	</div><!--ends the jumbotron-->
@@ -49,8 +49,9 @@
 		<th>Total Billed($)</th>
   	</tr>
   	</thead>
-		<tbody>
-		<!--td info for the table?-->
+		<tbody id="table-body">
+		<!--td info for the table will go here-->
+
 
 		</tbody>
   	</table>
@@ -69,18 +70,19 @@
   <!--contains the employee input info-->
   <div class="panel-body">
             <!-- add employee form (note the various input "types")-->
-            <form role="form">
+            <!--removed form role="form"-->
+         <form>
               <div class="form-group">
                 <label for="name-input">Employee Name</label>
-                <input class="form-control" id="name-input" type="text">
+                <input class="form-control" id="name-input" placeholder="Name" type="text">
               </div>
               <div class="form-group">
                 <label for="role-input">Role</label>
-                <input class="form-control" id="role-input" type="text">
+                <input class="form-control" id="role-input" placeholder="Role" type="text">
               </div>
               <div class="form-group">
-                <label for="date-input">Start Date</label>
-                <input class="form-control" id="date-input" type="number">
+                <label for="date-input">Start Date (DD/MM/YY - ex:01/01/89)</label>
+                <input class="form-control" id="date-input" type="date">
               </div>
               <div class="form-group">
                 <label for="monthly-input">Monthly Rate</label>
